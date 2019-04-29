@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84443A82226E888700BF08C0 /* WCPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84443A81226E888700BF08C0 /* WCPieChart.swift */; };
+		84709E9722718DEF0063E754 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84709E9622718DEF0063E754 /* RoundButton.swift */; };
+		84709E99227191280063E754 /* ListPieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84709E98227191280063E754 /* ListPieViewController.swift */; };
 		84BDC6A32269829E0020EA77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDC6A22269829E0020EA77 /* AppDelegate.swift */; };
 		84BDC6A52269829E0020EA77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDC6A42269829E0020EA77 /* ViewController.swift */; };
 		84BDC6A82269829E0020EA77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BDC6A62269829E0020EA77 /* Main.storyboard */; };
 		84BDC6AA2269829F0020EA77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BDC6A92269829F0020EA77 /* Assets.xcassets */; };
 		84BDC6AD226982A00020EA77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BDC6AB226982A00020EA77 /* LaunchScreen.storyboard */; };
+		84BDC6B5226982F50020EA77 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDC6B4226982F50020EA77 /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84443A81226E888700BF08C0 /* WCPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCPieChart.swift; sourceTree = "<group>"; };
+		84709E9622718DEF0063E754 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		84709E98227191280063E754 /* ListPieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPieViewController.swift; sourceTree = "<group>"; };
 		84BDC69F2269829E0020EA77 /* PieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BDC6A22269829E0020EA77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BDC6A42269829E0020EA77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		84BDC6A92269829F0020EA77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BDC6AC226982A00020EA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BDC6AE226982A00020EA77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BDC6B4226982F50020EA77 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				84BDC6A92269829F0020EA77 /* Assets.xcassets */,
 				84BDC6AB226982A00020EA77 /* LaunchScreen.storyboard */,
 				84BDC6AE226982A00020EA77 /* Info.plist */,
+				84BDC6B4226982F50020EA77 /* PieChartView.swift */,
+				84443A81226E888700BF08C0 /* WCPieChart.swift */,
+				84709E9622718DEF0063E754 /* RoundButton.swift */,
+				84709E98227191280063E754 /* ListPieViewController.swift */,
 			);
 			path = PieChart;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BDC6B5226982F50020EA77 /* PieChartView.swift in Sources */,
+				84709E99227191280063E754 /* ListPieViewController.swift in Sources */,
+				84709E9722718DEF0063E754 /* RoundButton.swift in Sources */,
 				84BDC6A52269829E0020EA77 /* ViewController.swift in Sources */,
+				84443A82226E888700BF08C0 /* WCPieChart.swift in Sources */,
 				84BDC6A32269829E0020EA77 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
